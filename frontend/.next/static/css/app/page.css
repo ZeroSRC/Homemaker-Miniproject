@@ -1,0 +1,351 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Navbar.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/* .Nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+} */
+.nav-container{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 5px 0 5px 0;
+}
+.nav-container nav{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    margin: 0 17.5% 0 17.5%;
+    padding: 0.5% 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.nav-container nav a {
+    color: #7a7979;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 10px;
+}
+.nav-container nav a:hover {
+    color: #000000;
+}
+.nav-container nav a h1{
+    padding: 0;
+    margin: 0;
+}
+.nav-container nav .Logo{
+    margin-right: auto;
+    padding-left: 10px;
+}
+.nav-container nav .Logo .pic-logo{
+    margin:5px 0px 0px 10px;
+}
+.nav-container nav .Menu-link{
+    display: flex;
+    align-items: center;
+}
+.nav-container nav .Menu-link .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.nav-container nav .Menu-link .dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000000;
+    padding: 12px;
+    width: 140px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn:hover {
+    color: #000000;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 0.5px solid rgb(177, 177, 177);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a:hover{
+    background-color: #B88E2F;
+    color: #ffffff;
+    
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content .log-out{
+    border-top:0.5px solid rgb(177, 177, 177) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Header-container{
+    background-color: #B88E2F;
+}
+.Header-container .Header-contact{
+    margin: 0 17.5% 0 17.5%;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    
+}
+.Header-container .Header-contact p{
+    font-size: 13px;
+    margin-left:50px;
+    color: #ffffff;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/BannerImg.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.banner{
+    width: 100%;
+    height: 400px;
+    overflow: hidden; 
+    position: relative; 
+}
+.banner .bannerimg{
+    height: auto; 
+    left: 50%;
+    max-height: none; 
+    max-width: 100%; 
+    min-height: 100%; 
+    min-width:100%; 
+    position: absolute; 
+    top: 50%; 
+    transform: translate(-50%,-50%); 
+    width: auto; 
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/Home.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.Home_container__P8LeA {
+    display: flex;
+    flex-direction: column;
+}
+.Home_boxHeader__38PNt{
+    position: absolute;
+    background-color: #FCFCFC;
+    color: rgb(31, 31, 31);
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Home_detailBoxHeader1__t9_nq{
+    text-align: center;
+    margin: 0 0 0 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    padding: 0% 10% 5% 10%;
+}
+.Home_button5__WRUEH {
+    font-family: 'Prompt', sans-serif;
+    position: relative;
+    align-items: center;
+    color: white;
+    background-clip: padding-box;
+    background-color: #ffb407;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+}
+.Home_button5__WRUEH:hover,
+.Home_button5__WRUEH:focus {
+    background-color: #e4a206;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.Home_button5__WRUEH:hover {
+    transform: translateY(-1px);
+}
+
+.Home_button5__WRUEH:active {
+    background-color: #e4a206;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+.Home_boxcontain__JfixY{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home_containerServiceshowbox__5NqpI{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Home_BoxShowservice__APlt_{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Home_article__JEKTX{
+    width: 316.6666666666667px;
+    height: 500px;
+    margin: 15px 25px 15px 25px;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 0.5px solid rgba(100, 100, 111, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+}
+.Home_article__JEKTX:hover {
+    transform: scale(1.1);
+    border: 2px solid #ffb407;
+}
+.Home_imgservice__pr5Vk {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.Home_titleservice__6oFgo{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20;
+}
+.Home_detailservice__MJq26{
+    margin: 0;
+    width: 80%;
+    height: 20%;
+    overflow: hidden;
+}
+.Home_btnservicebox___1UFV{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+}
+.Home_btnsyle__ryhR3 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 83.3333px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+}
+.Home_btnsyle__ryhR3:hover{
+    border: 1px solid #ffb407;
+    background-color: #ffb407;
+    color: white;
+}
+.Home_pricedetail__Jt6Rn{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 10%;
+}
+.Home_tice__ZdsBb{
+    color: rgb(253, 216, 5);
+}
+.Home_poppularlabel__op4rk{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.Home_tide__qCyCp{
+    color: #ff6600;
+}
+.Home_HowDoing__2meNg{
+    width: 100%;
+    background: #f5f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Home_TitleHowDO__hKNnR{
+    margin: 40px 0 20px 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: rgb(19, 19, 19);
+}
+.Home_DeatialHowdo__hEW9c{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+}
+.Home_boxHowDo__pDyF_{
+    margin: 10px 15px 10px 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Home_IconHowdo__JE4BU{
+    padding: 25px 25px 25px 25px;
+    width: 70px;
+    height: 70px;
+    border: 0;
+    color: #ffb407;
+}
+.Home_TitleinboxHowdo__sFgks{
+    margin: 20px 0 10px 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(31, 31, 31);
+}
+.Home_DeatailinboxHowdo__u_BR8{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 30px 0px 30px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    height: 100px;
+    color: rgb(31, 31, 31);
+}

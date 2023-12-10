@@ -1,0 +1,422 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Navbar.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/* .Nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+} */
+.nav-container{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 5px 0 5px 0;
+}
+.nav-container nav{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    margin: 0 17.5% 0 17.5%;
+    padding: 0.5% 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.nav-container nav a {
+    color: #7a7979;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 10px;
+}
+.nav-container nav a:hover {
+    color: #000000;
+}
+.nav-container nav a h1{
+    padding: 0;
+    margin: 0;
+}
+.nav-container nav .Logo{
+    margin-right: auto;
+    padding-left: 10px;
+}
+.nav-container nav .Logo .pic-logo{
+    margin:5px 0px 0px 10px;
+}
+.nav-container nav .Menu-link{
+    display: flex;
+    align-items: center;
+}
+.nav-container nav .Menu-link .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.nav-container nav .Menu-link .dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000000;
+    padding: 12px;
+    width: 140px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn:hover {
+    color: #000000;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 0.5px solid rgb(177, 177, 177);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a:hover{
+    background-color: #B88E2F;
+    color: #ffffff;
+    
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content .log-out{
+    border-top:0.5px solid rgb(177, 177, 177) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Header-container{
+    background-color: #B88E2F;
+}
+.Header-container .Header-contact{
+    margin: 0 17.5% 0 17.5%;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    
+}
+.Header-container .Header-contact p{
+    font-size: 13px;
+    margin-left:50px;
+    color: #ffffff;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/users/[name]/booking/booking.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.Boxbooking{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Boxbooking .Form{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .Form .title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boxbooking .Form .tilte-second{
+    margin:0 0 10px 0;
+    font-size: 16px;
+    color: #292929;
+}
+.Boxbooking .Form .BoxContainService {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Boxbooking .Form .BoxContainService .select-service{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    display: block;
+    width: 100%;
+    min-width: 350px;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxContainTime{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Boxbooking .Form .BoxContainTime .select-timework{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    display: block;
+    width: 100%;
+    min-width: 350px;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress{
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address{
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address span{
+    margin: 5px 0 0 0;
+    height: 20px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.Boxbooking .Form .BoxAddress .Checkbox-address input{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 0;
+
+}
+
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 95%;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 100%;
+    padding: 8px 2.5% 8px 2.5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress {
+    display: flex;
+    flex-direction: row;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress label{
+    margin-right: 10px;
+}
+.Boxbooking .Form .BoxAddress .BoxinputNewAddrees .BoxdetialNewAdress div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(205, 86, 86);
+}
+.Boxbooking .Form .BoxDatetimeForwork{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Boxbooking .Form .BoxDatetimeForwork .Sensitive{
+    color: rgb(233, 137, 64);
+    font-weight: 300;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime{
+    display: flex;
+    width: 100%;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime input{
+    margin-top: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 80%;
+    padding: 8px 5% 8px 5%;
+    border-radius: 5px;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime .da{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.Boxbooking .Form .BoxDatetimeForwork .BoxDateTime .ti{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.Boxbooking .Form .BoxPrice{
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    border-top:0.52px solid#d1d1d1 ;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Boxbooking .Form .btn-next{
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 10px 0 10px 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: #e9b640;
+    
+}
+.Boxbooking .Form .btn-next:hover{
+    background-color: white;
+    color: #e9b640;
+    border: 1px solid #e9b640;
+}
+/* ส่วน From2 */
+.Boxbooking .FormTwo{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormTwo .Title{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Boxbooking .FormTwo .box-pic{
+    width: 70%;
+    height: auto;
+}
+.Boxbooking .FormTwo .box-pic img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.Boxbooking .FormTwo .deatail-box{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormTwo .box-btn {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.Boxbooking .FormTwo .box-btn button{
+    width: 100px;
+    padding: 8px 0 8px 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 0;
+}
+.Boxbooking .FormTwo .box-btn button:hover{
+    transform: scale(1.05);
+}
+.Boxbooking .FormTwo .box-btn .btn1{
+    background-color: #e94065;
+}
+.Boxbooking .FormTwo .box-btn .btn2{
+    background-color: #292929;
+}
+/* ส่วนฟอมสามแสดงเสร็จสิ้น */
+.Boxbooking .FormThree{
+    margin: 40px 0 40px 0;
+    width: 40%;
+    min-width: 480px;
+    height: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Boxbooking .FormThree .iconfinish{
+    margin:80px 0 20px 0 ;
+    width: 120px;
+    height: auto;
+    color:rgb(14, 189, 247);
+}
+.Boxbooking .FormThree .Btn-finish-booking{
+    margin:100px 0 0 0 ;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    background-color:rgb(14, 189, 247);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.Boxbooking .FormThree .th{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    width: 100%;
+}
+.Boxbooking .FormThree .td{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+}
+.Boxbooking .FormThree .Btn-finish-booking:hover{
+    border: 3px solid rgb(14, 189, 247);
+    background-color: white;
+    color: rgb(14, 189, 247);
+}

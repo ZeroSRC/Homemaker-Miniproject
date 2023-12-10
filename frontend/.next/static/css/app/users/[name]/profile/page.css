@@ -1,0 +1,191 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./components/Navbar.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+/* .Nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+} */
+.nav-container{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 5px 0 5px 0;
+}
+.nav-container nav{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    margin: 0 17.5% 0 17.5%;
+    padding: 0.5% 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+.nav-container nav a {
+    color: #7a7979;
+    text-decoration: none;
+    margin-left: 12px;
+    padding: 10px;
+}
+.nav-container nav a:hover {
+    color: #000000;
+}
+.nav-container nav a h1{
+    padding: 0;
+    margin: 0;
+}
+.nav-container nav .Logo{
+    margin-right: auto;
+    padding-left: 10px;
+}
+.nav-container nav .Logo .pic-logo{
+    margin:5px 0px 0px 10px;
+}
+.nav-container nav .Menu-link{
+    display: flex;
+    align-items: center;
+}
+.nav-container nav .Menu-link .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.nav-container nav .Menu-link .dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000000;
+    padding: 12px;
+    width: 140px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.nav-container nav .Menu-link .dropdown .dropbtn:hover {
+    color: #000000;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 0.5px solid rgb(177, 177, 177);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content a:hover{
+    background-color: #B88E2F;
+    color: #ffffff;
+    
+}
+.nav-container nav .Menu-link .dropdown .dropdown-content .log-out{
+    border-top:0.5px solid rgb(177, 177, 177) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Header-container{
+    background-color: #B88E2F;
+}
+.Header-container .Header-contact{
+    margin: 0 17.5% 0 17.5%;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    
+}
+.Header-container .Header-contact p{
+    font-size: 13px;
+    margin-left:50px;
+    color: #ffffff;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/users/[name]/profile/profile.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.fullfill{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fullfill .container-userprofile{
+    width: 40%;
+    min-width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fullfill .container-userprofile .Title-profile{
+    margin-top: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.fullfill .container-userprofile .bx-data{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fullfill .container-userprofile .bx-data .warp{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fullfill .container-userprofile .bx-data .warp .warp-area{
+    display: flex;
+    flex-direction: row;
+}
+.fullfill .container-userprofile .bx-data .warp .warp-area h5{
+    color: #bb090f;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+.fullfill .container-userprofile .bx-data .warp input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    border: 1px solid #dedede;
+    width: 90%;
+    padding: 8px 3% 8px 3%;
+    border-radius: 5px;
+}
+.fullfill .container-userprofile .btn-update-profile{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-family: 'Prompt', sans-serif;
+    /* padding: 10px 24% 10px 24%; */
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #e9b640;
+}
+.fullfill .container-userprofile .btn-update-profile:hover{
+    background: #bb8509;
+    transition: all 200ms;
+}

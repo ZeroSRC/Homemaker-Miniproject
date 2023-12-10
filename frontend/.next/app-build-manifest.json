@@ -1,0 +1,76 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/users/[name]/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/users/[name]/profile/page.css",
+      "static/chunks/app/users/[name]/profile/page.js"
+    ],
+    "/price/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/price/page.css",
+      "static/chunks/app/price/page.js"
+    ],
+    "/users/[name]/booking/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/users/[name]/booking/page.css",
+      "static/chunks/app/users/[name]/booking/page.js"
+    ],
+    "/users/[name]/history/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/users/[name]/history/page.css",
+      "static/chunks/app/users/[name]/history/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/page.css",
+      "static/chunks/app/login/page.js"
+    ],
+    "/worker/[name]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/worker/[name]/page.css",
+      "static/chunks/app/worker/[name]/page.js"
+    ],
+    "/worker/[name]/allworkpage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/worker/[name]/allworkpage/page.css",
+      "static/chunks/app/worker/[name]/allworkpage/page.js"
+    ],
+    "/worker/[name]/profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/worker/[name]/profile/page.css",
+      "static/chunks/app/worker/[name]/profile/page.js"
+    ],
+    "/worker/[name]/history/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/worker/[name]/history/page.css",
+      "static/chunks/app/worker/[name]/history/page.js"
+    ],
+    "/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/register/page.css",
+      "static/chunks/app/register/page.js"
+    ]
+  }
+}
